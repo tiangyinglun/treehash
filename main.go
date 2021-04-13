@@ -45,7 +45,7 @@ func main() {
 	model := flag.String("model", "", "选择模式fast|big")
 	flag.Parse()
 	args := flag.Args()
-
+        fmt.Println("aaa")
 	for _, v := range args {
 		if v == "help" {
 			showHelp()
